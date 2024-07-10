@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'BinancePay'
-  s.version      = '1.4.2'
+  s.version      = '1.0.0'
   s.summary      = 'BinancePay framework for payment'
   s.description  = 'BinancePay framework for payment'
   s.homepage     = 'https://github.com/dineybomfim/careem.git'
