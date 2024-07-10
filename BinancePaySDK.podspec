@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-  s.name         = 'BinancePay'
+  s.name         = 'BinancePaySDK'
   s.version      = '1.0.0'
-  s.summary      = 'BinancePay framework for payment'
-  s.description  = 'BinancePay framework for payment'
+  s.summary      = 'BinancePaySDK framework for payment'
+  s.description  = 'BinancePaySDK framework for payment'
   s.homepage     = 'https://github.com/dineybomfim/careem.git'
   s.authors      = { 'BinancePay' => 'binancepay@binancepay.com' }
   s.license      = { :type => 'BSD-3-Clause', :file => 'LICENSE' }
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.ios.deployment_target  = '13.0'
   s.requires_arc = true
-  s.ios.vendored_frameworks = 'BinancePay.xcframework'
+  s.ios.vendored_frameworks = 'BinancePaySDK.xcframework'
 end
