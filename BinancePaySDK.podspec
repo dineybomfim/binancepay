@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'GENERATE_INFOPLIST_FILE' => 'YES' }
   s.pod_target_xcconfig = { 'GENERATE_INFOPLIST_FILE' => 'YES' }
   s.swift_version = '5.0'
-  s.ios.deployment_target  = '13.0'
+  s.ios.deployment_target  = '14.0'
   s.requires_arc = true
   s.ios.vendored_frameworks = 'BinancePaySDK.xcframework'
 end
